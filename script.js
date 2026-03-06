@@ -3,14 +3,14 @@
      • Open-Meteo Geocoding : https://geocoding-api.open-meteo.com
      • Open-Meteo Weather   : https://api.open-meteo.com */
 
-// ── CONFIG ──────────────────────────────────────────────────────
+// ── CONFIG 
 const GEO_URL     = "https://geocoding-api.open-meteo.com/v1/search";
 const WEATHER_URL = "https://api.open-meteo.com/v1/forecast";
 const LS_KEY      = "wt_history_v2";
 const MAX_HIST    = 8;
 const DEBOUNCE_MS = 370;
 
-// ── DOM REFS ────────────────────────────────────────────────────
+// ── DOM REFS 
 const cityInput        = document.getElementById("cityInput");
 const searchBtn        = document.getElementById("searchBtn");
 const inputClearBtn    = document.getElementById("inputClearBtn");
@@ -975,3 +975,4 @@ showEmpty();
 // Gentle starfield while idle
 
 startScene("night");
+
