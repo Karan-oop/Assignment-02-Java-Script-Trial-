@@ -1,4 +1,4 @@
-/* ASYNC WEATHER TRACKER — script.js
+/* Météo Pulse Weather Tracker — script.js
    APIs:
      • Open-Meteo Geocoding : https://geocoding-api.open-meteo.com
      • Open-Meteo Weather   : https://api.open-meteo.com */
